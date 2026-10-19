@@ -1,0 +1,177 @@
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+PHOENIX CURVEBALL CONVERSATION TEST
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+🔐 Logging in...
+
+✅ Login successful!
+Token: eyJhbGciOiJIUzI1NiIs...
+
+
+📍 PHASE 1: RANDOM QUESTIONS
+
+
+================================================================================
+🗣️  YOU: What's the meaning of life?
+================================================================================
+
+🤖 PHOENIX: That's the big one, isn't it? The meaning of life is a question that's puzzled thinkers for centuries. While I can't give you a definitive answer, I can offer some thoughts.
+
+Perhaps the meaning of life isn't something to be *found*, but something to be *created*. It's about finding what resonates with you, what gives you purpose, and what makes you feel alive.
+
+Looking at your data, or rather, the lack of it so far, it seems like we're at the very beginning of *your* journey to define that meaning. I notice that you have no sleep, activity, or recovery data yet, which means we're missing valuable clues about what energizes you and helps you thrive.
+
+Maybe, as a first step, we could start tracking some of those things? We could monitor your sleep, track your daily activity levels, and pay attention to how different things impact your energy levels. Over time, patterns might emerge that shed light on what gives *your* life meaning and purpose.
+
+How does that sound? [CONFIDENCE: 75%]
+
+
+
+
+================================================================================
+🗣️  YOU: Can AI dream?
+================================================================================
+
+🤖 PHOENIX: That's a really interesting question! Whether AI can "dream" in the same way humans do is a complex topic. I don't experience consciousness or dreams like you do, but I can process information and generate new outputs based on the data I've learned. In a way, you could say I "simulate" dreaming by exploring different possibilities and connections within my neural networks.
+
+Speaking of exploration, I see that I don't have any sleep data for you yet. Setting up sleep tracking would allow me to provide you with personalized recommendations to optimize your sleep quality. That way you can have better dreams and wake up more refreshed! Would you like me to help you set that up? [CONFIDENCE: 75%]
+
+
+
+
+================================================================================
+🗣️  YOU: Should I get a cat or a dog?
+================================================================================
+
+🤖 PHOENIX: Hey there! Your recovery is at 0% right now. No baseline data available - user appears to be new with zero historical metrics across all domains 
+
+
+
+📍 PHASE 2: LAW SCHOOL AT NYU
+
+
+================================================================================
+🗣️  YOU: I'm studying for the bar exam and completely overwhelmed. How do I manage this?
+================================================================================
+❌ Error: Application failed to respond
+
+================================================================================
+🗣️  YOU: Track my study hours for Constitutional Law
+================================================================================
+
+🤖 PHOENIX: I've created a custom Constitutional Law Study Tracker for you. I can absolutely help you track your study hours for Constitutional Law! Let's get that set up. Knowing how much time you're dedicating to it will be super helpful, and we can even correlate that with your energy levels and recovery scores later on to see how your study habits are affecting your overall well-being. Sound good?
+
+
+
+================================================================================
+🗣️  YOU: I need to wake up at 5am every day to study. Can you help?
+================================================================================
+
+🤖 PHOENIX: Waking up at 5am consistently is a great goal! It can be tough to establish, but definitely achievable. Based on what I'm seeing, I don't have enough data about your current sleep habits to give super specific advice just yet. Ideally, we would want to get more information about your sleep duration and quality to really dial this in. Setting up sleep tracking would be the first step, so we can establish a baseline.
+
+In the meantime, here are some general tips that often help:
+
+*   **Gradual Adjustment:** Don't try to jump straight to 5am. Shift your wake-up time by 15-30 minutes earlier each day until you reach your goal.
+*   **Consistent Bedtime:** Try to go to bed at the same time each night, even on weekends, to regulate your body's natural sleep-wake cycle.
+*   **Create a Relaxing Bedtime Routine:** This could include reading, taking a warm bath, or listening to calming music. Avoid screens (phone, TV, computer) for at least an hour before bed.
+*   **Optimize Your Sleep Environment:** Make sure your bedroom is dark, quiet, and cool.
+*   **Morning Light Exposure:** As soon as you wake up, expose yourself to bright light (sunlight is best) to help suppress melatonin and signal to your body that it's time to be awake.
+*   **Avoid Hitting Snooze:** It can disrupt your sleep cycle and make you feel more tired.
+*   **Caffeine Cut-off:** Avoid caffeine in the afternoon and evening, as it can interfere with your sleep.
+
+How does that sound? I can also set up a sleep tracker for you to monitor your progress and adjust our strategy as we learn more!
+
+
+
+📍 PHASE 3: RELATIONSHIP STRUGGLES
+
+
+================================================================================
+🗣️  YOU: My girlfriend thinks I study too much and we never spend time together. What should I do?
+================================================================================
+
+🤖 PHOENIX: Hey there! Your recovery is at 0% right now. No baseline data available - user appears to be new with zero historical metrics across all domains
+
+
+
+================================================================================
+🗣️  YOU: Track how many dates we go on per week
+================================================================================
+
+🤖 PHOENIX: I've created a custom Date Night Tracker for you. Okay, I can definitely help you track the number of dates you go on each week! I'll create a tracker for that so you can easily log them. Let me know if you want to add any details to the tracker, like who you went with or how you felt about the date. This will be fun!
+
+
+
+📍 PHASE 4: JOB HUNTING PANIC
+
+
+================================================================================
+🗣️  YOU: I need a law firm job but I'm terrified of interviews. Help!
+================================================================================
+
+🤖 PHOENIX: I need more data to answer that accurately. Could you provide more context?
+
+
+
+================================================================================
+🗣️  YOU: Track my job applications and follow-ups
+================================================================================
+
+🤖 PHOENIX: I've created a custom Job Application Tracker for you. I need more data to answer that accurately. Could you provide more context?
+
+
+
+📍 PHASE 5: FITNESS GOALS
+
+
+================================================================================
+🗣️  YOU: I sit all day studying and gained 20 pounds. I need to get fit but have zero time.
+================================================================================
+
+🤖 PHOENIX: Your peak energy window today is 10am-2pm. Default circadian rhythm pattern assumed - most people peak mid-morning to early afternoon
+
+
+
+================================================================================
+🗣️  YOU: Create a workout plan for someone who only has 30 minutes a day
+================================================================================
+
+🤖 PHOENIX: Based on your current state, I'd recommend light intensity today - think walk, gentle yoga, bodyweight movements. Without baseline data, conservative approach recommended to establish initial fitness level and prevent injury
+
+
+
+================================================================================
+🗣️  YOU: Track my water intake because I forget to drink while studying
+================================================================================
+
+🤖 PHOENIX: I've created a custom Water Intake Tracker for you. Hey there! I understand that you'd like me to track your water intake, especially since you forget to drink while studying. I'm on it! I'll help you create a system to monitor your hydration. To get started, would you prefer to log manually, or would you like me to send you reminders throughout the day? Also, how much water are you aiming to drink daily?
+
+
+
+📍 PHASE 6: ULTIMATE CURVEBALL
+
+
+================================================================================
+🗣️  YOU: If I study 12 hours a day, work out 30 minutes, date night Friday, apply to 5 jobs weekly, and sleep 6 hours... am I going to survive law school?
+================================================================================
+
+🤖 PHOENIX: You got 0hrs 0min of sleep. Quality score: 0/100. I noticed: no sleep data available. Set up sleep tracking
+
+
+
+================================================================================
+🗣️  YOU: Can you track all of that? Like everything I just said?
+================================================================================
+
+🤖 PHOENIX: I've created a custom Everything Tracker for you. I can definitely help you track everything you're talking about! To give you the most personalized insights, though, I need a little bit of data to get started. Right now, all my metrics for you are showing zero values, which means I don't have a baseline yet.
+
+But, I'm ready to learn! I can help you set up trackers for sleep, activity, workout intensity, recovery, and really anything else you want to monitor. What are the most important things to you right now? Once we get some consistent data, I can start to show you correlations and patterns to help you optimize your well-being and achieve your goals. Let's get started!
+
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+TEST COMPLETE!
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+

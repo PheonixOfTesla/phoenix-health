@@ -1,0 +1,21 @@
+# Browser profile data - contains user sessions and cookies
+data/
+
+# Node modules (if any local dependencies)
+node_modules/
+
+# Log files
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.debug
+debug/

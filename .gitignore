@@ -1,0 +1,13 @@
+node_modules/
+.env
+.DS_Store
+*.log
+.vscode/
+.idea/
+dist/
+build/
+google-service-account.json
+do not push/
+do not push/
+.vercel
+uploads/

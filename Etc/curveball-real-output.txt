@@ -1,0 +1,173 @@
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+PHOENIX CURVEBALL CONVERSATION TEST
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+🔐 Logging in...
+
+✅ Login successful!
+Token: eyJhbGciOiJIUzI1NiIs...
+
+
+📍 PHASE 1: RANDOM QUESTIONS
+
+
+================================================================================
+🗣️  YOU: What's the meaning of life?
+================================================================================
+
+🤖 PHOENIX: Good morning! Here's what matters today.
+
+
+
+================================================================================
+🗣️  YOU: Can AI dream?
+================================================================================
+
+🤖 PHOENIX: Good morning! Here's what matters today.
+
+
+
+================================================================================
+🗣️  YOU: Should I get a cat or a dog?
+================================================================================
+
+🤖 PHOENIX: Good morning! Here's what matters today.
+
+
+
+📍 PHASE 2: LAW SCHOOL AT NYU
+
+
+================================================================================
+🗣️  YOU: I'm studying for the bar exam and completely overwhelmed. How do I manage this?
+================================================================================
+
+🤖 PHOENIX: Good morning! Here's what matters today.
+
+
+
+================================================================================
+🗣️  YOU: Track my study hours for Constitutional Law
+================================================================================
+
+🤖 PHOENIX: I've created a custom Constitutional Law Study Tracker for you. 
+
+
+
+================================================================================
+🗣️  YOU: I need to wake up at 5am every day to study. Can you help?
+================================================================================
+❌ Error: Application failed to respond
+
+📍 PHASE 3: RELATIONSHIP STRUGGLES
+
+
+================================================================================
+🗣️  YOU: My girlfriend thinks I study too much and we never spend time together. What should I do?
+================================================================================
+
+🤖 PHOENIX: Hey there! Your recovery is at 0% right now. No baseline data available - user appears to be new with zero historical metrics across all domains 
+
+
+
+================================================================================
+🗣️  YOU: Track how many dates we go on per week
+================================================================================
+
+🤖 PHOENIX: I've created a custom Date Night Tracker for you. Okay, I can definitely help you track the number of dates you go on each week! I'll create a new tracker for that right away. This is exciting - let's make sure you have all the data points you need to keep having a great time! [CONFIDENCE: 95%]
+
+
+
+
+📍 PHASE 4: JOB HUNTING PANIC
+
+
+================================================================================
+🗣️  YOU: I need a law firm job but I'm terrified of interviews. Help!
+================================================================================
+
+🤖 PHOENIX: Okay, landing a law firm job is tough, and interviews are definitely a hurdle! It's totally normal to feel terrified. Let's break this down and tackle it together. First, I want to acknowledge that your current recovery score is non-existent since I'm just getting to know you, but I can help boost that with some light activity today!
+
+Here's a plan of attack to ease your interview jitters and boost your confidence:
+
+1.  **Preparation is Key:** The more prepared you are, the less scary the unknown feels. Let's focus on practicing common interview questions (tell me about yourself, strengths/weaknesses, why law, why this firm, etc.). We can even do mock interviews together if you'd like!
+2.  **Practice Relaxation Techniques:** Before the interview, try deep breathing exercises or a short meditation. Since your sleep data is not yet recorded, let's add that too! I can also remind you to take short breaks throughout your preparation period.
+3.  **Visualize Success:** Imagine yourself acing the interview. Visualize yourself confident, articulate, and engaging.
+4.  **Reframe Your Thinking:** Instead of viewing the interview as an interrogation, think of it as a conversation to see if the firm is a good fit *for you*. You are evaluating them too!
+5.  **Focus on What You Can Control:** You can't control the interviewer or their questions perfectly, but you *can* control your preparation, your attitude, and your responses.
+6.  **Track Your Progress and Stress:** Let’s track your interview prep time and stress levels. Seeing your effort and managing your stress will boost your confidence. Would you like me to set up a tracker for your job application preparation?
+
+I am here to support you through this process!
+
+[CONFIDENCE: 90%]
+
+
+
+
+================================================================================
+🗣️  YOU: Track my job applications and follow-ups
+================================================================================
+
+🤖 PHOENIX: I've created a custom Job Application Tracker for you. Okay, I can definitely help you track your job applications and follow-ups! Think of me as your personal assistant for your job search. I can set up a system to record each application, the date you sent it, the company, the position, and, most importantly, the date you followed up (or need to follow up). We can also track the status of each application – like "applied," "interviewing," "rejected," or "offer."
+
+This will help you stay organized, remember to follow up, and see at a glance where you are in the process with each company.
+
+Shall we get started setting up your job application tracker? What information would you like to include for each application besides the basics I mentioned? [CONFIDENCE: 95%]
+
+
+
+
+📍 PHASE 5: FITNESS GOALS
+
+
+================================================================================
+🗣️  YOU: I sit all day studying and gained 20 pounds. I need to get fit but have zero time.
+================================================================================
+
+🤖 PHOENIX: Your peak energy window today is 10am-2pm. Default circadian rhythm pattern assumed - most people peak mid-morning to early afternoon
+
+
+
+================================================================================
+🗣️  YOU: Create a workout plan for someone who only has 30 minutes a day
+================================================================================
+
+🤖 PHOENIX: Based on your current state, I'd recommend light intensity today - think walk, gentle yoga, bodyweight movements. Without baseline data, conservative approach recommended to establish initial fitness level and prevent injury
+
+
+
+================================================================================
+🗣️  YOU: Track my water intake because I forget to drink while studying
+================================================================================
+
+🤖 PHOENIX: I've created a custom Water Intake Tracker for you. Hey there! I totally get the struggle of remembering to hydrate, especially when you're deep in study mode. I can definitely help you track your water intake and set up reminders so you stay refreshed and focused. Let's get a system going that works for you! How would you like me to set up the water tracking and reminders? [CONFIDENCE: 95%]
+
+
+
+
+📍 PHASE 6: ULTIMATE CURVEBALL
+
+
+================================================================================
+🗣️  YOU: If I study 12 hours a day, work out 30 minutes, date night Friday, apply to 5 jobs weekly, and sleep 6 hours... am I going to survive law school?
+================================================================================
+
+🤖 PHOENIX: You got 0hrs 0min of sleep. Quality score: 0/100. I noticed: no sleep data available. Set up sleep tracking
+
+
+
+================================================================================
+🗣️  YOU: Can you track all of that? Like everything I just said?
+================================================================================
+
+🤖 PHOENIX: I've created a custom Everything Tracker for you. I can definitely help you track things! To make sure I understand exactly what "everything" includes, could you tell me a bit more about what you'd like me to keep tabs on? The more specific you are, the better I can tailor a tracker just for you. [CONFIDENCE: 90%]
+
+
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+TEST COMPLETE!
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+

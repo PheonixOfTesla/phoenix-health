@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butler Streaming Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #718096;
+            margin-bottom: 30px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .button-stop {
+            background: linear-gradient(135deg, #f56565 0%, #c53030 100%);
+        }
+
+        .status-bar {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .status-message {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .progress-container {
+            background: #e2e8f0;
+            border-radius: 8px;
+            height: 8px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #718096;
+        }
+
+        .screenshot-container {
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screenshot-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .screenshot-placeholder {
+            color: #718096;
+            font-size: 18px;
+        }
+
+        .logs {
+            background: #1a202c;
+            color: #e2e8f0;
+            border-radius: 8px;
+            padding: 16px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+
+        .log-entry {
+            margin-bottom: 8px;
+            padding: 4px 0;
+            border-bottom: 1px solid #2d3748;
+        }
+
+        .log-timestamp {
+            color: #718096;
+            margin-right: 8px;
+        }
+
+        .log-type {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .log-type-connected { background: #48bb78; color: white; }
+        .log-type-status { background: #4299e1; color: white; }
+        .log-type-frame { background: #ed8936; color: white; }
+        .log-type-stopped { background: #f56565; color: white; }
+        .log-type-error { background: #c53030; color: white; }
+
+        .metadata {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .metadata-item {
+            background: #f7fafc;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .metadata-label {
+            font-size: 12px;
+            color: #718096;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .metadata-value {
+            font-size: 16px;
+            color: #2d3748;
+            font-weight: 600;
+        }
+
+        .connection-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .connection-indicator.connected {
+            background: #48bb78;
+            box-shadow: 0 0 10px #48bb78;
+        }
+
+        .connection-indicator.disconnected {
+            background: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Butler Automation Stream Viewer</h1>
+            <p class="subtitle">Watch real-time automation with screenshots and status updates</p>
+
+            <div class="controls">
+                <input
+                    type="text"
+                    id="sessionId"
+                    placeholder="Enter Session ID..."
+                />
+                <button id="connectBtn" onclick="connectToStream()">Connect</button>
+                <button id="disconnectBtn" class="button-stop" onclick="disconnectStream()" disabled>Disconnect</button>
+            </div>
+
+            <div class="status-bar">
+                <div class="status-message">
+                    <span class="connection-indicator disconnected" id="connectionIndicator"></span>
+                    <span id="statusMessage">Not connected</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="progress-text" id="progressText">Waiting to connect...</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 style="margin-bottom: 20px;">Live Screenshot</h2>
+            <div class="screenshot-container" id="screenshotContainer">
+                <div class="screenshot-placeholder">Screenshot will appear here</div>
+            </div>
+
+            <div class="metadata" id="metadata">
+                <div class="metadata-item">
+                    <div class="metadata-label">Current URL</div>
+                    <div class="metadata-value" id="currentUrl">-</div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Frame Count</div>
+                    <div class="metadata-value" id="frameCount">0</div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Last Update</div>
+                    <div class="metadata-value" id="lastUpdate">-</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 style="margin-bottom: 20px;">Event Logs</h2>
+            <div class="logs" id="logs">
+                <div class="log-entry">
+                    <span class="log-timestamp">Ready</span>
+                    <span>Waiting for connection...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let eventSource = null;
+        let frameCount = 0;
+
+        function addLog(type, message, timestamp = new Date()) {
+            const logs = document.getElementById('logs');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+
+            const time = timestamp.toLocaleTimeString();
+            entry.innerHTML = `
+                <span class="log-timestamp">${time}</span>
+                <span class="log-type log-type-${type}">${type.toUpperCase()}</span>
+                <span>${message}</span>
+            `;
+
+            logs.insertBefore(entry, logs.firstChild);
+
+            // Keep only last 50 logs
+            while (logs.children.length > 50) {
+                logs.removeChild(logs.lastChild);
+            }
+        }
+
+        function updateProgress(step, total) {
+            const percentage = (step / total) * 100;
+            document.getElementById('progressBar').style.width = `${percentage}%`;
+            document.getElementById('progressText').textContent = `Step ${step} of ${total}`;
+        }
+
+        function connectToStream() {
+            const sessionId = document.getElementById('sessionId').value.trim();
+
+            if (!sessionId) {
+                alert('Please enter a session ID');
+                return;
+            }
+
+            if (eventSource) {
+                disconnectStream();
+            }
+
+            // Update UI
+            document.getElementById('connectBtn').disabled = true;
+            document.getElementById('disconnectBtn').disabled = false;
+            document.getElementById('connectionIndicator').classList.remove('disconnected');
+            document.getElementById('connectionIndicator').classList.add('connected');
+            document.getElementById('statusMessage').textContent = 'Connecting...';
+
+            addLog('info', `Connecting to session: ${sessionId}`);
+
+            // Connect to SSE endpoint
+            // NOTE: Update this URL to match your backend
+            const apiUrl = `http://localhost:5001/api/butler/stream/${sessionId}`;
+
+            eventSource = new EventSource(apiUrl);
+
+            eventSource.onmessage = (event) => {
+                try {
+                    const data = JSON.parse(event.data);
+                    handleEvent(data);
+                } catch (error) {
+                    addLog('error', `Parse error: ${error.message}`);
+                }
+            };
+
+            eventSource.onerror = (error) => {
+                addLog('error', 'Connection error occurred');
+                disconnectStream();
+            };
+        }
+
+        function handleEvent(data) {
+            const now = new Date();
+
+            switch (data.type) {
+                case 'connected':
+                    document.getElementById('statusMessage').textContent = 'Connected';
+                    addLog('connected', `Connected to session: ${data.sessionId}`);
+                    break;
+
+                case 'frame':
+                    frameCount++;
+                    document.getElementById('frameCount').textContent = frameCount;
+                    document.getElementById('currentUrl').textContent = data.url || '-';
+                    document.getElementById('lastUpdate').textContent = now.toLocaleTimeString();
+
+                    const container = document.getElementById('screenshotContainer');
+                    container.innerHTML = `<img src="data:image/png;base64,${data.screenshot}" alt="Screenshot" />`;
+
+                    addLog('frame', `Frame #${frameCount} captured`);
+                    break;
+
+                case 'status':
+                    document.getElementById('statusMessage').textContent = data.message;
+
+                    if (data.step && data.totalSteps) {
+                        updateProgress(data.step, data.totalSteps);
+                    }
+
+                    addLog('status', data.message);
+                    break;
+
+                case 'stream_stopped':
+                    addLog('stopped', 'Stream ended');
+                    disconnectStream();
+                    break;
+            }
+        }
+
+        function disconnectStream() {
+            if (eventSource) {
+                eventSource.close();
+                eventSource = null;
+            }
+
+            document.getElementById('connectBtn').disabled = false;
+            document.getElementById('disconnectBtn').disabled = true;
+            document.getElementById('connectionIndicator').classList.remove('connected');
+            document.getElementById('connectionIndicator').classList.add('disconnected');
+            document.getElementById('statusMessage').textContent = 'Disconnected';
+
+            addLog('info', 'Disconnected from stream');
+        }
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', disconnectStream);
+    </script>
+</body>
+</html>

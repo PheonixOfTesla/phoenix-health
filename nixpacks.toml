@@ -1,0 +1,36 @@
+# Nixpacks config for Puppeteer Chrome dependencies
+
+[phases.setup]
+nixPkgs = [
+  "nodejs_20",
+  "glib",
+  "nss",
+  "nspr",
+  "at-spi2-atk",
+  "cups",
+  "dbus",
+  "libdrm",
+  "expat",
+  "xorg.libxcb",
+  "libxkbcommon",
+  "xorg.libX11",
+  "xorg.libXcomposite",
+  "xorg.libXdamage",
+  "xorg.libXext",
+  "xorg.libXfixes",
+  "xorg.libXrandr",
+  "mesa",
+  "pango",
+  "cairo",
+  "alsa-lib",
+  "gtk3",
+  "xorg.libXi",
+  "xorg.libXtst",
+  "xorg.libXScrnSaver"
+]
+
+[phases.install]
+cmds = ["npm ci"]
+
+[start]
+cmd = "node server.js"

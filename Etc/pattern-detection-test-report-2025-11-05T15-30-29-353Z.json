@@ -1,0 +1,12 @@
+{
+  "personasTested": 0,
+  "patternsDetected": 0,
+  "truePositives": 0,
+  "falsePositives": 0,
+  "falseNegatives": 0,
+  "accuracy": 0,
+  "precision": 0,
+  "recall": 0,
+  "detailedResults": [],
+  "f1Score": 0
+}
